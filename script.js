@@ -48,7 +48,7 @@ for (i=0 ; i<teamMembers.length; i++) {
                           <img src="${teamMember.img}" class="card-img-top" alt="Marco Bianchi">
                             <div class="card-body">
                               <h5 class="card-title">${teamMember.name}</h5>
-                              <p class="card-text">Designer</p>
+                              <p class="card-text">${teamMember.role}</p>
                             </div>
                        </div>`;
 
@@ -56,8 +56,6 @@ for (i=0 ; i<teamMembers.length; i++) {
 
   console.log(teamMember)
 }
-
-console.log(listHTML);
 
 listElement.innerHTML= listHTML
 
