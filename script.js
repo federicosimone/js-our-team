@@ -45,7 +45,7 @@ for (i=0 ; i<teamMembers.length; i++) {
   const teamMember = teamMembers[i] ;
 
   const htmlElement = `<div class="card" style="width: 18rem;">
-                          <img src="${teamMember.img}" class="card-img-top" alt="Marco Bianchi">
+                          <img src="${teamMember.img}" class="card-img-top" alt="${teamMember.name}">
                             <div class="card-body">
                               <h5 class="card-title">${teamMember.name}</h5>
                               <p class="card-text">${teamMember.role}</p>
